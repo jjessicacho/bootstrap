@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 5px;
-  outline: none;
 }
 
 body {
@@ -9,13 +8,28 @@ body {
 }
 
 header {
-  background-color: red;
   height: 250px;
+  background: rgb(238, 236, 174);
+  background: radial-gradient(
+    circle,
+    rgba(238, 236, 174, 1) 0%,
+    rgba(151, 233, 148, 1) 100%
+  );
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
 }
 
 nav {
-  background-color: yellow;
+  background-color: rgb(236, 184, 201);
   height: 50px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  outline: none;
 }
 
 main img {
@@ -23,16 +37,20 @@ main img {
 }
 
 article {
-  background-color: aqua;
+  background-color: beige;
   margin: 10px 0;
   height: 300px;
+  padding: 20px;
 }
 
 aside {
   background-color: bisque;
+  height: 1000px;
 }
 
 footer {
-  background-color: coral;
-  height: 100px;
+  background-color: #808000;
+  height: 50px;
+  text-align: center;
+  padding: 10px 0;
 }
