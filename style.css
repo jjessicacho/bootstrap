@@ -24,11 +24,13 @@ header {
 nav {
   background-color: rgb(236, 184, 201);
   height: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 nav li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   outline: none;
 }
 
