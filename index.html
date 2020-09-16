@@ -3,13 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
     <title>Grid Template</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="" alt="spring" />
-    <img src="" alt="summer" />
-    <img src="" alt="autumn" />
-    <img src="" alt="winter" />
+    <section class="container-fluid">
+      <header class="col-12">Header</header>
+      <nav class="col-12">nav</nav>
+    </section>
+
+    <main class="container">
+      <div class="row">
+        <aside>aside</aside>
+      </div>
+
+      <div class="row">
+        <img class="col-3" src="images/spring.jpg" alt="spring" />
+        <img class="col-9" src="images/summer.jpg" alt="summer" />
+        <img class="col-8" src="images/autumn.jpg" alt="autumn" />
+        <img class="col-4" src="images/winter.jpg" alt="winter" />
+      </div>
+
+      <div class="row">
+        <article class="col-12">article 2</article>
+        <article class="col-12">article 3</article>
+      </div>
+    </main>
+
+    <section class="container-fluid">
+      <footer class="col-12">Footer</footer>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
