@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 5px;
+  outline: none;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+}
+
+header {
+  background-color: red;
+  height: 250px;
+}
+
+nav {
+  background-color: yellow;
+  height: 50px;
+}
+
+main img {
+  width: 600px;
+}
+
+article {
+  background-color: aqua;
+  margin: 10px 0;
+  height: 300px;
+}
+
+aside {
+  background-color: bisque;
+}
+
+footer {
+  background-color: coral;
+  height: 100px;
+}
