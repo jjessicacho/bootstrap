@@ -13,12 +13,13 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <title>Bootstrap grid blog</title>
+    <title>Bootstrap blog</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="alert alert-danger" role="alert">This is a danger alert!</div>
     <section class="container-fluid">
-      <header class="col-12">Welcome to My Bootstrap Grid Blog!</header>
+      <header class="col-12">Welcome to My Bootstrap Blog!</header>
       <nav class="col-12">
         <ul>
           <li><a href="#">Image</a></li>
@@ -27,7 +28,7 @@
       </nav>
     </section>
 
-    <main class="container">
+    <main class="container-fluid">
       <!-- images -->
       <div class="row">
         <img class="col-12 col-md-3" src="images/spring.jpg" alt="spring" />
@@ -70,6 +71,37 @@
       </div>
       <!-- articles End-->
     </main>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">Height</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Emma</td>
+          <td>22</td>
+          <td>170cm</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Sophia</td>
+          <td>50</td>
+          <td>155cm</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Olivia</td>
+          <td>36</td>
+          <td>168cm</td>
+        </tr>
+      </tbody>
+    </table>
 
     <section class="container-fluid">
       <footer class="col-12">Copyright to Jessica Cho, 2020</footer>
