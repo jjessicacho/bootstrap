@@ -17,14 +17,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">
+        This is a simple hero unit, a simple jumbotron-style component for
+        calling extra attention to featured content or information.
+      </p>
+      <hr class="my-3" />
+      <p>
+        It uses utility classes for typography and spacing to space content out
+        within the larger container.
+      </p>
+      <p class="lead">
+        <a class="btn btn-secondary btn-m" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+
+    <!--alert-->
     <div class="alert alert-danger" role="alert">This is a danger alert!</div>
     <section class="container-fluid">
-      <header class="col-12">Welcome to My Bootstrap Blog!</header>
-      <nav class="col-12">
-        <ul>
-          <li><a href="#">Image</a></li>
-          <li><a href="#">Article</a></li>
-        </ul>
+      <!--header-->
+      <header class="col-12 text-light d-flex justify-content-center">
+        Welcome to My Bootstrap Blog!
+      </header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Image</a>
+        <a class="navbar-brand" href="#">Article</a>
+        <a class="navbar-brand" href="#">Table</a>
+        <a class="navbar-brand" href="#">Carousel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </nav>
     </section>
 
